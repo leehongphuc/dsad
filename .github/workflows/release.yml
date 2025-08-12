@@ -1,0 +1,55 @@
+name: Release Mod
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Create Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        body: |
+          ## Overlord Class Mod Release
+          
+          ### What's New
+          - Enhanced Blood Drain skill with healing effects
+          - Streamlined to 4 core skills for better balance
+          - Improved localization and descriptions
+          - Bug fixes and optimizations
+          
+          ### Installation
+          1. Download the mod files
+          2. Extract to your Darkest Dungeon mods folder
+          3. Enable the mod in-game
+          4. Restart the game
+          
+          ### Compatibility
+          - Darkest Dungeon base game
+          - All DLC content
+          - Most other mods
+          
+          See CHANGELOG.md for detailed changes.
+        draft: false
+        prerelease: false
+        
+    - name: Upload Release Assets
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./README.md
+        asset_name: README.md
+        asset_content_type: text/markdown
