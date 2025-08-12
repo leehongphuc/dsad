@@ -135,12 +135,14 @@
       },
 	  {
          "id" : "ainz_avarice_generosity",
-         "buffs" : 
+                  "buffs" : 
          [
-			"AC_DEATHRESIST_BUFF",
+            "AC_DEATHRESIST_BUFF",
 			"AC_DEBUFF_RESIST_BUFF",
 			"AC_STUN_RESIST_BUFF",
-			"AC_MOVE_RESIST_BUFF"
+			"AC_MOVE_RESIST_BUFF",
+			"AC_LOW_HP_DAMAGE_REDUCTION",
+			"AC_LOW_HP_DODGE_BUFF"
          ],
          "hero_class_requirements":
          [
