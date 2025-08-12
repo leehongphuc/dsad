@@ -5,11 +5,11 @@
 	<ModDataPath>D:/Hoang/Mod Steam/Ainz class mod final/</ModDataPath>
 	<Title>Overlord - Class Mod</Title>
 	<Language>english</Language>
-	<UpdateDetails>Updated Blood Drain skill with healing and stress relief effects. Reduced to 4 core skills for better balance: Blood Drain, Body of Effulgent Beryl, Cry of the Banshee, and The Goal of All Life is Death. Improved skill descriptions and localization.</UpdateDetails>
+	<UpdateDetails>Fixed skill unlocking issue and added tooltips for Blood Drain effects. Skills now properly unlock and stress relief/healing effects are visible in game tooltips.</UpdateDetails>
 	<Visibility>public</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>9</VersionMinor>
+	<VersionMinor>10</VersionMinor>
 	<TargetBuild>0</TargetBuild>
 	<Tags>
 		<Tags>New Class</Tags>
