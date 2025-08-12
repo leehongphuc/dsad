@@ -1,3 +1,5 @@
+README.md 4096
+CHANGELOG.md 2048
 localization/ainz_skills_english.xml 1024
 modes/radiant/campaign/town/districts/nazarick.districts_districts.json 1138
 heroes/ainz/ainz_A/anim/ainz.sprite.afflicted.png 372489
