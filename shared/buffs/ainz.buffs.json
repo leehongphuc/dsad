@@ -550,7 +550,7 @@
       {
          "id" : "AC_LOW_HP_DODGE_BUFF",
          "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "dodge_rating",
+         "stat_sub_type" : "defense_rating",
          "amount" : 5,
          "remove_if_not_active" : false,
          "rule_type" : "hpbelow",

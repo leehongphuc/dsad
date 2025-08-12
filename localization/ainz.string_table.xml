@@ -387,7 +387,7 @@
 		<entry id="str_inventory_title_trinketcom_ainz_accursed_orb"><![CDATA[Accursed Orb]]></entry>
 				<entry id="str_nazarick_title"><![CDATA[Great Tomb of Nazarick]]></entry>
 		
-		<entry id="str_inventory_description_trinketainz_avarice_generosity"><![CDATA[+20% Death Blow Resistance<br>+40% Debuff Resistance<br>+40% Stun Resistance<br>+40% Move Resistance<br><br>When HP below 30%:<br>-30% Damage Received<br>+5 Dodge Rating]]></entry>
+		<entry id="str_inventory_description_trinketainz_avarice_generosity"><![CDATA[+20% Death Blow Resistance<br>+40% Debuff Resistance<br>+40% Stun Resistance<br>+40% Move Resistance<br><br>When HP below 30%:<br>-30% Damage Received<br>+5 Defense Rating]]></entry>
 		<entry id="str_inventory_set_description_cc_ainz"><![CDATA[Set Bonus (2 items):<br>+25% Healing Received when HP below 50%<br>+25% Stress Healing Received when HP below 50%]]></entry>
 		  
 	</language>
@@ -779,7 +779,7 @@
 		 <entry id="str_inventory_title_trinketcom_ainz_accursed_orb"><![CDATA[Проклятый шар]]></entry>
 		<entry id="str_nazarick_title"><![CDATA[Великая гробница Назарика]]></entry>
 		
-		 <entry id="str_inventory_description_trinketainz_avarice_generosity"><![CDATA[+20% Сопротивление смертельному удару<br>+40% Сопротивление дебаффам<br>+40% Сопротивление оглушению<br>+40% Сопротивление перемещению<br><br>При HP ниже 30%:<br>-30% Получаемого урона<br>+5 Уклонения]]></entry>
+		 <entry id="str_inventory_description_trinketainz_avarice_generosity"><![CDATA[+20% Сопротивление смертельному удару<br>+40% Сопротивление дебаффам<br>+40% Сопротивление оглушению<br>+40% Сопротивление перемещению<br><br>При HP ниже 30%:<br>-30% Получаемого урона<br>+5 Защиты]]></entry>
 		 <entry id="str_inventory_set_description_cc_ainz"><![CDATA[Бонус комплекта (2 предмета):<br>+25% Получаемого лечения при HP ниже 50%<br>+25% Снятия стресса при HP ниже 50%]]></entry>		 
 	</language>
 	<language id="spanish">
@@ -1169,7 +1169,7 @@
 		<entry id="str_inventory_title_trinketcom_ainz_accursed_orb"><![CDATA[Accursed Orb]]></entry>
 		<entry id="str_nazarick_title"><![CDATA[Great Tomb of Nazarick]]></entry>
 		
-		<entry id="str_inventory_description_trinketainz_avarice_generosity"><![CDATA[+20% Death Blow Resistance<br>+40% Debuff Resistance<br>+40% Stun Resistance<br>+40% Move Resistance<br><br>When HP below 30%:<br>-30% Damage Received<br>+5 Dodge Rating]]></entry>
+		<entry id="str_inventory_description_trinketainz_avarice_generosity"><![CDATA[+20% Death Blow Resistance<br>+40% Debuff Resistance<br>+40% Stun Resistance<br>+40% Move Resistance<br><br>When HP below 30%:<br>-30% Damage Received<br>+5 Defense Rating]]></entry>
 		<entry id="str_inventory_set_description_cc_ainz"><![CDATA[Set Bonus (2 items):<br>+25% Healing Received when HP below 50%<br>+25% Stress Healing Received when HP below 50%]]></entry>
 		  
 	</language>
