@@ -10,11 +10,11 @@ armour: .name "ainz_armour_1" .def 15% .prot 0 .hp 23 .spd 0 .upgradeRequirement
 armour: .name "ainz_armour_2" .def 20% .prot 0 .hp 27 .spd 0 .upgradeRequirementCode 1
 armour: .name "ainz_armour_3" .def 25% .prot 0 .hp 31 .spd 0 .upgradeRequirementCode 2
 armour: .name "ainz_armour_4" .def 30% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 3
-combat_skill: .id "bloodlet" .level 0 .type "melee" .atk 80% .dmg 0% .crit 4% .launch 123 .target 123 .is_crit_valid True  .effect "Grasp Heart 1" "True Stun 1" "Grasp Heart Corpse" "Ainz Tooltip NoCorpse"
-combat_skill: .id "bloodlet" .level 1 .type "melee" .atk 90% .dmg 0% .crit 5% .launch 123 .target 123 .is_crit_valid True  .effect "Grasp Heart 2" "True Stun 2" "Grasp Heart Corpse" "Ainz Tooltip NoCorpse"
-combat_skill: .id "bloodlet" .level 2 .type "melee" .atk 95% .dmg 0% .crit 6% .launch 123 .target 123 .is_crit_valid True  .effect "Grasp Heart 3" "True Stun 3" "Grasp Heart Corpse" "Ainz Tooltip NoCorpse"
-combat_skill: .id "bloodlet" .level 3 .type "melee" .atk 100% .dmg 0% .crit 7% .launch 123 .target 123 .is_crit_valid True  .effect "Grasp Heart 4" "True Stun 4" "Grasp Heart Corpse" "Ainz Tooltip NoCorpse"
-combat_skill: .id "bloodlet" .level 4 .type "melee" .atk 110% .dmg 0% .crit 8% .launch 123 .target 123 .is_crit_valid True  .effect "Grasp Heart 5" "True Stun 5" "Grasp Heart Corpse" "Ainz Tooltip NoCorpse"
+combat_skill: .id "bloodlet" .level 0 .type "melee" .atk 80% .dmg 0% .crit 4% .launch 123 .target 123 .is_crit_valid True  .effect "Grasp Heart 1" "True Stun 1" "Grasp Heart Corpse" "Bloodlet Heal 1" "Bloodlet Stress Relief 1" "Bloodlet Bleed 1" "Ainz Tooltip NoCorpse"
+combat_skill: .id "bloodlet" .level 1 .type "melee" .atk 90% .dmg 0% .crit 5% .launch 123 .target 123 .is_crit_valid True  .effect "Grasp Heart 2" "True Stun 2" "Grasp Heart Corpse" "Bloodlet Heal 2" "Bloodlet Stress Relief 2" "Bloodlet Bleed 2" "Ainz Tooltip NoCorpse"
+combat_skill: .id "bloodlet" .level 2 .type "melee" .atk 95% .dmg 0% .crit 6% .launch 123 .target 123 .is_crit_valid True  .effect "Grasp Heart 3" "True Stun 3" "Grasp Heart Corpse" "Bloodlet Heal 3" "Bloodlet Stress Relief 3" "Bloodlet Bleed 3" "Ainz Tooltip NoCorpse"
+combat_skill: .id "bloodlet" .level 3 .type "melee" .atk 100% .dmg 0% .crit 7% .launch 123 .target 123 .is_crit_valid True  .effect "Grasp Heart 4" "True Stun 4" "Grasp Heart Corpse" "Bloodlet Heal 4" "Bloodlet Stress Relief 4" "Bloodlet Bleed 4" "Ainz Tooltip NoCorpse"
+combat_skill: .id "bloodlet" .level 4 .type "melee" .atk 110% .dmg 0% .crit 8% .launch 123 .target 123 .is_crit_valid True  .effect "Grasp Heart 5" "True Stun 5" "Grasp Heart Corpse" "Bloodlet Heal 5" "Bloodlet Stress Relief 5" "Bloodlet Bleed 5" "Ainz Tooltip NoCorpse"
 combat_skill: .id "abyssal_artillery" .level 0 .type "ranged" .atk 80% .dmg -33% .crit 0% .launch 234 .target ~23 .is_crit_valid True  
 combat_skill: .id "abyssal_artillery" .level 1 .type "ranged" .atk 90% .dmg -33% .crit 1% .launch 234 .target ~23 .is_crit_valid True  
 combat_skill: .id "abyssal_artillery" .level 2 .type "ranged" .atk 95% .dmg -33% .crit 2% .launch 234 .target ~23 .is_crit_valid True  

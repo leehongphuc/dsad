@@ -11,6 +11,26 @@ effect: .name "Grasp Heart 5" .target "target" .curio_result_type "negative" .ch
 
 effect: .name "Grasp Heart Corpse" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .can_apply_on_death true .queue false .has_description false
 
+// Bloodlet Healing and Stress Relief Effects
+effect: .name "Bloodlet Heal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 7 .on_hit true .on_miss false .queue true
+effect: .name "Bloodlet Heal 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 7 .on_hit true .on_miss false .queue true
+effect: .name "Bloodlet Heal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 7 .on_hit true .on_miss false .queue true
+effect: .name "Bloodlet Heal 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 7 .on_hit true .on_miss false .queue true
+effect: .name "Bloodlet Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 7 .on_hit true .on_miss false .queue true
+
+effect: .name "Bloodlet Stress Relief 1" .target "performer" .curio_result_type "positive" .chance 100% .stress_heal 10 .on_hit true .on_miss false .queue true
+effect: .name "Bloodlet Stress Relief 2" .target "performer" .curio_result_type "positive" .chance 100% .stress_heal 10 .on_hit true .on_miss false .queue true
+effect: .name "Bloodlet Stress Relief 3" .target "performer" .curio_result_type "positive" .chance 100% .stress_heal 10 .on_hit true .on_miss false .queue true
+effect: .name "Bloodlet Stress Relief 4" .target "performer" .curio_result_type "positive" .chance 100% .stress_heal 10 .on_hit true .on_miss false .queue true
+effect: .name "Bloodlet Stress Relief 5" .target "performer" .curio_result_type "positive" .chance 100% .stress_heal 10 .on_hit true .on_miss false .queue true
+
+// Bloodlet Bleeding Effects
+effect: .name "Bloodlet Bleed 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .dotBleed 3 .on_hit true .on_miss false .queue true
+effect: .name "Bloodlet Bleed 2" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .dotBleed 3 .on_hit true .on_miss false .queue true
+effect: .name "Bloodlet Bleed 3" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .dotBleed 4 .on_hit true .on_miss false .queue true
+effect: .name "Bloodlet Bleed 4" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .dotBleed 4 .on_hit true .on_miss false .queue true
+effect: .name "Bloodlet Bleed 5" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .dotBleed 5 .on_hit true .on_miss false .queue true
+
 effect: .name "True Stun 1" .target "target" .curio_result_type "negative" .chance 80%  .stun 1	.on_hit false .on_miss true .queue true 
 effect: .name "True Stun 2" .target "target" .curio_result_type "negative" .chance 85%  .stun 1	.on_hit false .on_miss true .queue true 
 effect: .name "True Stun 3" .target "target" .curio_result_type "negative" .chance 90%  .stun 1	.on_hit false .on_miss true .queue true 
