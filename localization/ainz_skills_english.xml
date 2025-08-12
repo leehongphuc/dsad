@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="english">
+		<!-- Skill Descriptions for Ainz -->
+		<entry id="combat_skill_name_ainz_bloodlet"><![CDATA[Blood Drain]]></entry>
+		<entry id="combat_skill_description_ainz_bloodlet"><![CDATA[Drains the life force from enemies. Has a chance to instantly kill the target. On hit, heals 7 HP and reduces stress by 10. Inflicts bleeding damage over time.]]></entry>
+		<entry id="combat_skill_description_ainz_abyssal_artillery"><![CDATA[Creates a devastating black hole that pulls enemies and deals massive damage.]]></entry>
+		<entry id="combat_skill_description_ainz_weakening_curse"><![CDATA[Slashes through reality itself, causing severe bleeding wounds that ignore resistance.]]></entry>
+		<entry id="combat_skill_description_ainz_wyrd_reconstruction"><![CDATA[Transforms the body into an unbreakable beryl crystal, providing powerful defensive buffs.]]></entry>
+		<entry id="combat_skill_description_ainz_disruptive_curse"><![CDATA[Creates a gravitational vortex that pulls enemies and clears all corpses from the battlefield.]]></entry>
+		<entry id="combat_skill_description_ainz_hands_from_abyss"><![CDATA[Unleashes the terrifying cry of a banshee, stunning enemies and weakening their resolve.]]></entry>
+		<entry id="combat_skill_description_ainz_daemons_pull"><![CDATA[The ultimate death spell. Pulls enemies into the abyss and inflicts deadly poison that represents the inevitability of death.]]></entry>
+		<entry id="combat_skill_description_ainz_move"><![CDATA[Repositions to a different rank.]]></entry>
+		
+		<!-- Upgrade Tree Names -->
+		<entry id="upgrade_tree_name_ainz.bloodlet"><![CDATA[Blood Drain]]></entry>
+	</language>
+</root>
